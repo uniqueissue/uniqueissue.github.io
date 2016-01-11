@@ -1,0 +1,30 @@
+body {
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  background-image: url(chicago.jpg);
+  background-size: cover;
+}
+#profile {
+	width: 1200px;
+	margin: 50px ;
+}
+#ian {
+  width: 1200px;
+  margin: 1px auto 1px auto;
+}
+h1 {
+	color: #50c878;
+	font-weight: 600;	
+}
+h4 {
+	color: #50c878;
+}
+.solo {
+	color: hotpink;
+}
+img {
+	width: 100px;
+}
+#ian2 {
+	width: 160px;
+}
