@@ -9,8 +9,9 @@ body {
 	margin: 50px ;
 }
 #ian {
-  width: 1200px;
+  width: 400px;
   margin: 1px auto 1px auto;
+  color: #50c878;
 }
 h1 {
 	color: #50c878;
@@ -28,6 +29,19 @@ img {
 #ian2 {
 	width: 160px;
 }
-#contact {
-	width: 20px;
+.jumbotron {
+	height: 300px;
+}
+.container {
+	color: #50c878;
+}
+.white {
+	color: white;	
+}
+.black {
+	color: black;
+}
+#ad {
+	background-color: black;
+	color: white;
 }
