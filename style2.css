@@ -14,8 +14,73 @@ body {
 	color:#191970;
 }
 img {
-	width: 100px;
+	width: 200px;
 }
 .container {
 	color: black;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  font-size: 6vmin;
+}
+.codepen {
+  position: relative;
+  display: block;
+  float: left;
+  width: 10vmin;
+  height: 10vmin;
+  border-top: 1vmin solid currentColor;
+  line-height: 10vmin;
+  text-align: center;
+  transition: all 0.3s;
+  color:black;
+}
+.codepen:before {
+  position: absolute;
+  top: -1vmin;
+  right: -1vmin;
+  display: block;
+  width: 1vmin;
+  height: 10vmin;
+  background: #872657;
+  content: '';
+  transition: all 0.8s;
+}
+.codepen.is-active:before {
+  top: -2vmin;
+  height: 2vmin;
+}
+.codepen.is-active:last-child:before {
+  height: 1vmin;
+  top: -1vmin;
+}
+
+.codepen:nth-child(2) {
+  transform: translateY(5vmin);
+}
+.codepen:nth-child(2).is-active {
+  transform: translateY(0);
+}
+
+.codepen:nth-child(3) {
+  transform: translateY(10vmin);
+}
+.codepen:nth-child(3).is-active {
+  transform: translateY(0);
+}
+
+.codepen:nth-child(4) {
+  transform: translateY(15vmin);
+}
+.codepen:nth-child(4).is-active {
+  transform: translateY(0);
+}
+
+.codepen:nth-child(5) {
+  transform: translateY(20vmin);
+}
+.codepen:nth-child(5).is-active {
+  transform: translateY(0);
 }

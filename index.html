@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ian Jo: Curious Connector</title>
+	<title>[I'm Ian]'s Blog since 2/14/2016 </title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -9,10 +9,11 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqery/2.1.4/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="widget.js"></script>
   	 <!-- Brand and toggle get grouped for better mobile display -->
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed">
+<nav class="navbar navbar-default">
   <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
       <span class="sr-only">Toggle navigation</span>
@@ -20,20 +21,21 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i> home</a>
+    <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i><strong> Home</strong></a>
   </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="aboutme.html">About Me <span class="sr-only">(current)</span></a></li>
-        <li><a href="newservice.html">What's New? </a></li>
+        <li><a href="aboutme.html"><strong>About Me </strong><span class="sr-only">(current)</span></a></li>
+        <li><a href="newservice.html"><strong>What's New? </strong></a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Content <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>Content </strong><span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Travels</a></li>
             <li><a href="#">Gadgets & Reviews</a></li>
             <li><a href="#">MBA & Thoughts</a></li>
+            <li><a href="javascript.html">Your To-do Lists</a></li>
           </ul>
         </li>
       </ul>
@@ -60,8 +62,7 @@
 
   <div class="container">
     <div class="jumbotron">
-    <h2 id="jumbotron"> A new blog [curious connector] coming soon!</h2>
-	<img id="ian2" src="ianjo.jpg">
+    <h1>[I'm Ian]</h1> <h2> two more pages are activated: "About Me" and "What's new?"</h2>
     </div>
     </div>
     <div class="container">
@@ -98,17 +99,30 @@
 	</div>
   </div>
 
-    <div class="col-md-2 hidden-sm">
+  <div class="col-md-2 hidden-sm">
 	<div id="ad">
 	<!-- sidebar: will be filled with ad -->
-	<h3><i class="fa fa-lock"></i> AD Space</h3>
-	</div>
+	<h3><i class="fa fa-lock"></i> AD/Weather</h3>
+  </div>
+  <div class='weather-app'>
+    <div class='weather-app_main'>
+    <div class='weather-app_main__information'>
+    <div class="border">
+      <img class='weather-app_main__information--icon' src='#'>
+      <h2 class='weather-app_main__information--temperature'></h2>
     </div>
+    </div>
+    </div>
+	</div>
+  </div>
+
+   <div class="container">
     <div class="row">
     <div class="col-md-5">
     <h3 class="solo2"><strong></i><i class="fa fa-users"></i> New Service Launching </strong></h3>
     <ul>
-    <li class="white"> Travel-mate Finder bridging “Awesome Planners” and “Lazy Enjoyers” </li>
+    <li class="white"> Travel-mate Finder bridging “Awesome Planners” and “Lazy Enjoyers”</li>
+    <img id="travel" src="travel.png">
     </ul>
     </div>
     <div class="col-md-5">
@@ -120,9 +134,10 @@
       <a href="http://www.wsj.com/"><button type="button" class="btn btn-default">3</button>
       <button type="button" class="btn btn-danger">4</button>
       <button type="button" class="btn btn-default">5</button>
-    </ul>
     </div>
     <div class="col-md-2">
+    <a href="javascript.html"><h4 class="black"><strong><i class="fa fa-list"></i> Your To-do List </strong></h4></a>
+    </div>
     </div>
     </div>
     </div>
